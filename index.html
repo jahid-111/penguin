@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
-
+    <!-- MY FIRST TAILWIND CODE  -->
 
     <!-- FONTAWESOME FONTAWESOME  -->
     <script src="https://kit.fontawesome.com/8963cce665.js" crossorigin="anonymous"></script>
@@ -28,6 +28,9 @@
     </script>
 
     <!-- ==========================================  -->
+
+
+
 </head>
 
 <body>
@@ -42,12 +45,14 @@
                 </h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet.</p>
                 <button class="uppercase bg-[#A4BC4C] rounded-xl py-4 px-7 text-white font-semibold">
+                    <!-- Used SVG first Time  -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="w-6 h-6 inline">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
                     </svg>
-                    buy now</button>
+                    buy now
+                </button>
             </div>
 
             <div class="p-8 ">
@@ -57,14 +62,15 @@
         </section>
     </header>
     <!-- HEADER END  -->
+
+
     <!-- ========================  -->
 
-
-    <main class="container mx-auto">
+    <!-- MAIN START  -->
+    <main class="container mx-auto bg-[#e5e5e5]">
         <!-- WOMEN JACKET  -->
 
         <section class="mx-10">
-
             <h2 class="text-5xl text-center p-5 font-bold">WOMEN JACKET</h2>
 
             <div class="grid  md:grid-cols-2 lg:grid-cols-3 gap-7">
@@ -73,7 +79,6 @@
                     <div class="p-5 bg-slate-100 rounded-xl">
                         <img src="images/jacket-1.png" alt="">
                     </div>
-
                     <h3 class="text-3xl font-semibold">Yellow Coat Jacket</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, ex!</p>
 
@@ -90,10 +95,8 @@
                     <div class="p-5 bg-slate-100 rounded-xl">
                         <img src="images/jacket-2.png" alt="">
                     </div>
-
                     <h3 class="text-3xl font-semibold">Light Yellow Coat Jacket</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, ex!</p>
-
 
                     <div class="flex justify-between">
                         <h2 class="text-5xl text-jacketprice font-bold ">$234.00</h2>
@@ -116,13 +119,12 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
-
+        <!-- ------------  -->
 
         <!-- MEN JACKET  -->
-        <section class="  mx-10 py-3">
+        <section class=" mb-5 mx-10 py-3">
             <h2 class="text-5xl text-center p-5 font-bold">MEN JACKET</h2>
 
             <div class="grid  md:grid-cols-2 lg:grid-cols-3 gap-7">
@@ -149,13 +151,13 @@
                     <h3 class="text-3xl font-semibold">Sample Red Coat Jacket</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, ex!</p>
 
-
                     <div class="flex justify-between">
                         <h2 class="text-5xl text-jacketprice font-bold ">$234.00</h2>
                         <button class="uppercase bg-[#A4BC4C] rounded-xl py-2 px-5 text-white text-4 font-semibold">
                             <i class="fa-solid fa-cart-shopping mr-2" style="color: #ffffff;"></i>buy now</button>
                     </div>
                 </div>
+
                 <div class="p-4  shadow-lg rounded-xl ">
                     <!-- jacket-3  -->
                     <div class="p-5 bg-slate-100 rounded-xl">
@@ -171,23 +173,58 @@
                     </div>
                 </div>
             </div>
+        </section>
+        <!-- COLLECTION END  -->
 
+        <!-- --------------------- -->
+
+
+        <!-- SERVICE SECTIION  -->
+        <section class="container mt-10 mx-auto py-3 px-5">
+            <div class="grid md:grid-cols-2 gap-7">
+                <div class="rounded-xl bg-white p-6 flex">
+                    <img class="w-20 h-20 mr-2" src="icons/house.png" alt="">
+                    <div>
+                        <h4 class="text-2xl">Find The Perfect Fit.</h4>
+                        <p>Everybody is deferent, wich is why we offer style for every body.</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center row-span-3">
+                    <img src="images/shopping.png" alt="">
+                </div>
+
+                <div class="rounded-xl bg-white p-6 flex">
+                    <img class="w-20 h-20 mr-2" src="icons/house.png" alt="">
+                    <div>
+                        <h4 class="text-2xl">Find The Perfect Fit.</h4>
+                        <p>Everybody is deferent, wich is why we offer style for every body.</p>
+                    </div>
+                </div>
+
+                <div class="rounded-xl bg-white p-6 flex">
+                    <img class="w-20 h-20 mr-2" src="icons/house.png" alt="">
+                    <div>
+                        <h4 class="text-2xl">Find The Perfect Fit.</h4>
+                        <p>Everybody is deferent, wich is why we offer style for every body.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-
-
-
     </main>
+    <!-- MAIN END  -->
 
 
-
-
-
-
-
-
-
-
+    <!-- FOOTER  -->
+    <footer class="h-14 flex justify-center items-center">
+        <section class="text-center bg-yellow-200 rounded-2xl p-2">
+            <h5>
+                <span class="text-yellow-800">My First <span class="text-cyan-400">TAILWIND </span>Practise.
+                </span><code>Code by </code><span class="text-blue-700">Mohd. Jahidul Islam</span>
+            </h5>
+        </section>
+    </footer>
 
 </body>
 
